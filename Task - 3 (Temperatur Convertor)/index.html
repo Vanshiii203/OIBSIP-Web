@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+     <script src="https://kit.fontawesome.com/ec689a8ca0.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="wrapper">
+        <header>Temperature Converter</header>
+    <form action="#" placeholder="0"  >
+        <div class="temp">
+            <p>Enter Temperature</p>
+            <input type="number" id="input_value" >
+        </div>
+        <div class="drop-list">
+            <div class="form">
+                <p>From</p>
+                <div class="select-box">
+                    <select  id="input">
+                    <option value="Celsius">Celsius (°C)</option>
+                    <option value="Fahrenheit">Fahrenheit (°F)</option>
+                    <option value="Kelvin">Kelvin (°K)</option>
+                </select>
+                </div>
+            </div>
+            <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+            <div class="to">
+                <p>To</p>
+                <div class="select-box">
+
+                    <select id="output">
+                    <option value="Fahrenheit">Fahrenheit (°F)</option>
+                    <option value="Celsius">Celsius (°C)</option>
+                    <option value="Kelvin">Kelvin (°K)</option>
+                </select>
+                </div>
+            </div>
+        </div>
+       <button onclick="convertTemperature()"  >Convert</button>
+       <div class="result_area" style="margin-top: 16px;">
+        <label for="" >Answer</label>
+        <input type="text" value="" id="result" style="margin-top: 12px;">
+      </div>
+    </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
