@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro:wght@500&family=Ubuntu:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.logo{
+    width: 9rem;
+    height: 6rem;   
+    margin-top: 0.9rem; 
+}
+.navbar{
+    display: flex;
+    align-items: center;
+     width: 100%;
+     position: relative;
+}
+.navbar ul li {
+display: inline-block ;
+position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 1.5rem;
+    color: #0A0A0A ;
+    font-weight: 700;
+    position: relative;
+    font-size: 1.2em;
+    font-family: 'Ubuntu';
+}
+.navbar ul li a:hover{
+    text-decoration: solid underline  #FF4500 4px ;
+}
+.search {
+    float: right;
+    position: relative;
+    padding-left: 18rem;
+}
+input{
+  border: 2px solid #FF4500;
+}
+.btn{
+    background-color: #FF4500;
+    position: relative;
+    color: #f2f2f2;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 9px;
+    cursor: pointer;
+}
+.para{
+    text-align: center;
+    font-size:2em;
+    color: #FF4500;
+    font-weight: 900;
+}
+.name{
+    color: #0A0A0A;
+}
+.para1{
+    padding-left: 25%;
+    padding-top: 3rem;
+    font-size: 1.5em;
+}
+#contain{
+    display: flex;
+    flex: 1; 
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 2rem;
+}
+.container{
+  text-align: center;
+border: 2.5px dashed #FF4500;
+margin-left: 2rem;
+margin-right: 2rem;
+  width: 20rem;
+  height: 22rem;
+  position: relative;
+  padding: 2rem;
+  
+}
+.ico{
+  color:#FF4500 ;
+  position: relative;
+}
+h1{
+  text-align: center;
+  font-family: 'Ubuntu';
+}
+.para2{
+  text-align: center;
+  padding-top: 2.5rem;
+  font-family: 'poppins';
+}
+.for{
+text-align: center;
+padding-top: 1rem;
+font-family: 'poppins';
+position: relative;
+}
+.input{
+  height: 2.5rem;
+  width: 10rem;
+  border: 2px solid #FF4500;
+  margin-bottom: 1.5rem;
+  color: #FF4500;
+  position: relative;
+}
+.text{
+  height: 2rem;
+  width: 20rem;
+  border: 3px solid #FF4500;
+  margin-bottom: 1.3rem;
+  color: #0A0A0A;
+}
+.bt{
+  margin-top: 1rem;
+  font-family: 'poppins';
+}
+.submit{
+ font-weight: 700;
+  padding: 2px;
+  position: relative;
+  font-family: 'poppins';
+}
+.rating {
+  display: inline-block;
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  font-size: 50px;
+}
+.rating label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  cursor: pointer;
+}
+
+.rating label:last-child {
+  position: static;
+}
+
+.rating label:nth-child(1) {
+  z-index: 5;
+}
+
+.rating label:nth-child(2) {
+  z-index: 4;
+}
+
+.rating label:nth-child(3) {
+  z-index: 3;
+}
+
+.rating label:nth-child(4) {
+  z-index: 2;
+}
+
+.rating label:nth-child(5) {
+  z-index: 1;
+}
+
+.rating label input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.rating label .icon {
+  float: left;
+  color: transparent;
+}
+
+.rating label:last-child .icon {
+  color: #000;
+}
+
+.rating:not(:hover) label input:checked ~ .icon,
+.rating:hover label:hover input ~ .icon {
+  color: #FF4500;
+}
+
+.rating label input:focus:not(:checked) ~ .icon:last-child {
+  color: #000;
+  text-shadow: 0 0 5px #FF4500;
+}
+.home{
+   width: 100%;
+  min-height: 100vh; 
+  display: flex;
+  flex-wrap: wrap;
+}
+.box{
+  margin: 60px 20px;
+  margin-left: 40px;
+  margin-right: 55px;
+  margin-top: 100px;
+  width: 240px;
+  height: 353px;
+  box-shadow: rgba(0, 0, 0, 0.507) 10px 10px 15px;
+  border-radius: 20px;
+  transform-style: preserve-3d;
+  transition: all 0.6s ease;
+  position: relative;
+}
+.layer{
+  width: 200px;
+  height: 315px;
+  background-color: rgba(39, 38, 38, 0.644);
+  padding: 20px 20px;
+  color: #f2f2f2;
+  border-radius: 20px;
+  position: absolute;
+  backface-visibility: hidden;
+  font-family: "Roboto";
+
+}
+.box:hover{
+  transform: rotateY(180deg);
+}
+.food{
+font-size: 2em;
+}
+.details{
+  padding-top: 20px;
+  font-size: 1rem;
+}
+.star{
+  font-size: 1.5rem;
+}
+.checked {
+  padding-top: 2rem;
+  color: orange;
+}
+#ad1{
+  background: url(images/1.png) no-repeat;
+  background-size: 100%;
+}
+#ad2{
+  background: url(images/2.png) no-repeat;
+  background-size: 100%;
+}
+#ad3{
+  background: url(images/3.png) no-repeat;
+  background-size: 100%;
+}
+#ad4{
+  background: url(images/4.png) no-repeat;
+  background-size: 100%;
+}
+.foot{
+  text-align: center;
+  background-color:#0A0A0A;
+  font-size: 1.5rem;
+  color: #f2f2f2;
+}
+.myname{
+  color: #FF4500;
+  background-color:#0A0A0A;
+  font-size: 1.5rem;
+}

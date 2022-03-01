@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taste Buddy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ec689a8ca0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="rating.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <img class="logo" src="images/logo.jpg" alt="logo">
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Review">Review</a></li>
+            <li><a href="#Restaurants A-Z">Restaurants A-Z</a></li>
+            <li><a href="#Menus">Menus</a></li>
+            <li><a href="#Contacts">Contacts</a></li>
+            <div class="search">
+                <form action="#">
+                    <input type="text" placeholder=" Search Resturants/Cusine" name="search">
+                    <button class="btn">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </ul>
+    </nav>
+    <p class="para">RESTAURANT <span class="name">REVIEW</span> </p>
+    <section id="contain">
+        <div class="container">
+            <div class="ico">
+                <i class="fa fa-handshake-o fa-3x" aria-hidden="true"></i>
+            </div>
+            <h1>JOIN US</h1>
+            <p class="para2">ISNT'T IT THE TIME YOU JOIN THE BEST GUIDE TO LOCAL RESTAURANT & NIGHTLIFE.<br> FIND AND
+                SHARE RESTAURANT REVIEWS,RATINGS, MENUS, COUPOUNS, PHOTOS AND MORE....</p>
+        </div>
+        <div class="container">
+            <div class="ico">
+                <i class="fas fa-utensils fa-3x"></i>
+            </div>
+            <h1>ABOUT US </h1>
+            <p class="para2">WE HAVE COMPILED THE REVIEWS OF VARIOUS RESTAURANTS, SO YOU CAN MONITOR YOUR RESTAURANT'S
+                ONLINE PRESENCE.CHECK OUT THE MOST IMPORTANT RESTAURANT REVIEWS TODAY!</p>
+        </div>
+        <div class="container">
+            <div class="ico">
+                <i class="fa fa-pencil-square-o fa-3x" aria-hidden="true "></i>
+                <div class="ic">
+                    <button class="bt">
+                        <i class="fa fa-pencil" aria-hidden="true">write a review</i>
+                    </button>
+                    <button class="bt">
+                        <i class="fa fa-camera fa-1x" aria-hidden="true">Add Photo</i>
+                    </button>
+                    <button class="bt">
+                        <i class="fa fa-share-square-o" aria-hidden="true">Share</i>
+                    </button>
+
+                </div>
+            </div>
+            <form class="for" action="#">
+                <p for="Name"> NAME: <input type="text" name="Username" class="text" id="username" placeholder="Name"
+                        required></p>
+                <p for="name" id="Restaurant">RESTAURANT NAME : <input type="text" name="text" class="text"
+                        placeholder="Restaurant Name" required></p>
+                <textarea name="messages" id="messages" class="text" cols="30" rows="10"
+                    placeholder="Review"></textarea>
+                <button class="submit">Submit</button>
+                <div class="rating">
+                    <label>
+                        <input class="input" type="radio" name="stars" value="1" />
+                        <span class="icon">★</span>
+                    </label>
+                    <label>
+                        <input class="input" type="radio" name="stars" value="2" />
+                        <span class="icon">★</span>
+                        <span class="icon">★</span>
+                    </label>
+                    <label>
+                        <input class="input" type="radio" name="stars" value="3" />
+                        <span class="icon">★</span>
+                        <span class="icon">★</span>
+                        <span class="icon">★</span>
+                    </label>
+                    <label>
+                        <input class="input" type="radio" name="stars" value="4" />
+                        <span class="icon">★</span>
+                        <span class="icon">★</span>
+                        <span class="icon">★</span>
+                        <span class="icon">★</span>
+                    </label>
+                    <label>
+                        <input class="input" type="radio" name="stars" value="5" />
+                        <span class="icon">★</span>
+                        <span class="icon">★</span>
+                        <span class="icon">★</span>
+                        <span class="icon">★</span>
+                        <span class="icon">★</span>
+                    </label>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="home">
+        <div class="box" id="ad1">
+            <div class="layer">
+                <h2 class="food">99 Pancakes</h2>
+                <div class="details">I tried this for the first time few weeks ago, If you’re a sweet tooth, I’m
+                    guaranteeing you, you’re going to love it.
+                    Must visit and try them.They are amazing and delicious.As of now I feel like ordering for me
+                    too😬🤩♥️
+                </div>
+                <div class="writer">
+                    <h5><br>-Navjot Singh</h5>
+                </div>
+                <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="box" id="ad2">
+            <div class="layer">
+                <h2 class="food">Pizza Hut</h2>
+                <div class="details"> This Pizza Hut is located near Vrindavan restaurant.Like every
+                    pizza hut outlet this is really nice too. Great pizzas and good service.
+                    Note:They doesn't provide carry bag for takeout (at least i didn't got on my first visit)
+                </div>
+                <div class="writer">
+                    <h5><br>-Ruchita Waghmare</h5>
+                </div>
+                <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star"></span>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="box" id="ad3">
+            <div class="layer">
+                <h2 class="food">Nom Chinese</h2>
+                <div class="details"> An 'Actual' Chinese restaurant. Whatever you order, you aren't gonna get
+                    disappointed. The soft Chinese music in the background adds more realistic feeling of having Chinese
+                    food.Just the rice part limits me to 4 star
+                </div>
+                <div class="writer">
+                    <h5><br>-Devam Baderiya</h5>
+                </div>
+                <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="box" id="ad4">
+            <div class="layer">
+                <h2 class="food">Starbucks</h2>
+                <div class="details"> First Starbucks of Indore. Very good start. The beverage and food are beyond
+                    doubts.The staff is so courteous that their services are applauded.
+                    Selection of beans as per your personal choice is another best feature.
+                </div>
+                <div class="writer">
+                    <h5><br>-Deepti Pathak</h5>
+                </div>
+                <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <p class="foot">Taste <span class="myname">Buddy</span> &copy;2022|All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
